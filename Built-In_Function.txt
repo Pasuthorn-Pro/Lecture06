@@ -1,0 +1,10 @@
+len() is Return the number of item in the list แสดงจำนวนของไอเท็มในลิสต์
+sum() is Return the sum of all elements in the list รวมผลลัพธ์ของค่าทั้งหมดในลิสต์
+max() is Return the maximum element in the list แสดงจำนวนที่มากที่สุดในลิสต์
+min() is Return the minimum element in the list แสดงจำนวนที่น้อยที่สุดในลิสต์
+sorted() is Return a sorted list of the original list แสดงลิสต์ที่ถูกเรียงลำดับข้อมูลแล้ว
+any() is Return true if any element in the list is true ทำงานเมื่อข้อมูลในลิสต์ตรงตามเงื่อนไข
+all() is Return true if all elements in the list are true ทำงานเมื่อข้อมูลทั้งหมดในลิสต์ถูกต้อง
+list() Convert an iterable (e.g., a string) into a list แปลงสิ่งที่ทำซ้ำได้ให้เป็นลิสต์
+reversed() Return a reverse iterator of the list กลับด้านข้อมูลในลิสต์
+enmurate () Return an iterator of tuples, each containing an index and the corresponding item from the list ตัววนซ้ำของข้อมูลทั้งหมด โดยแต่ละรายการมีดัชนีและรายการที่เกี่ยวข้องจากรายการ
