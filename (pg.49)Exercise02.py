@@ -33,21 +33,17 @@ def add_item(inventory, item_name, quantity, price):
         inventory.append([item_name, quantity, price])
 
 
-# Action 1: Update inventory after selling 20 bananas
 update_inventory(inventory, "Banana", 20)
-print(inventory)  # Check inventory after update
+print(inventory)
 
-# Action 2: Calculate the total value of the inventory
 total_value = calculate_total_value(inventory)
 print("Total Value:", total_value)
 
-# Action 3: Find the most expensive item
 most_expensive = find_most_expensive(inventory)
 print("Most Expensive Item:", most_expensive)
 
-# Action 4: Add "Eggs" with 30 units at $0.25, then update it to 50 units at $0.30
 add_item(inventory, "Eggs", 30, 0.25)
-print(inventory)  # Check inventory after adding Eggs
+print(inventory)
 
 add_item(inventory, "Eggs", 50, 0.30)
-print(inventory)  # Check inventory after updating Eggs
+print(inventory)
